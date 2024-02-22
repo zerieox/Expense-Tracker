@@ -1,8 +1,11 @@
 import React, {useContext, useState} from "react";
 import axios from "axios";
 
-const BASE_URL = "https://tofinancialfreedom.netlify.app/api/v1/"
-const GlobalContext = React.createContext()
+const BASE_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://ToFinancialFreedom.onrender.com/api/v1/' 
+  : 'http://localhost:4000/api/v1/';
+
+  const GlobalContext = React.createContext()
 
 export const GlobalProvider = ({children})=>{
     const [incomes, setIncomes] = useState([]);
