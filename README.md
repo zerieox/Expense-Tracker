@@ -1,6 +1,6 @@
 # To Financial Freedom - Expense Tracker
 
-*Built by a broke college kid* <img src="public/financialfreedom.png" align="right" width="150">
+*Built by a broke college kid* <img src="frontend/src/img/financialfreedom.png" align="right" width="150">
 
 ## About the site
 Often times, college students tend to eat out to save time or are just not very good at tracking what they spend on a daily basis, and especially with the ease of online accessibility make purchases on the go. This expense tracker is a simple way to keep track of the spendings that many people do without having to login to their bank accounts every single time. Users are able
