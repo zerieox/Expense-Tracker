@@ -6,8 +6,6 @@ const BASE_URL = process.env.NODE_ENV === 'development'
   : 'https://tofinancialfreedom.onrender.com/api/v1/';
 
   const GlobalContext = React.createContext()
-console.log(BASE_URL);
-console.log(process.env.NODE_ENV)
 export const GlobalProvider = ({children})=>{
     const [incomes, setIncomes] = useState([]);
     const [expenses, setExpenses] = useState([]);
